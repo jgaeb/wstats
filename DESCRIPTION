@@ -1,6 +1,6 @@
 Package: wstats
 Title: Weighted Descriptive Statistics
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R:
     person("Johann D. Gaebler", email = "me@jgaeb.com", role = c("aut", "cre"))
 Description: Weighted versions of common descriptive statistics (variance,
