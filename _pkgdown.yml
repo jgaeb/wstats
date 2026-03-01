@@ -1,0 +1,23 @@
+url: https://jgaeb.github.io/wstats/
+
+template:
+  bootstrap: 5
+
+reference:
+  - title: Variance and standard deviation
+    contents:
+      - weighted_var
+      - weighted_sd
+  - title: Covariance and correlation
+    contents:
+      - weighted_cov
+      - weighted_cor
+  - title: Quantiles
+    contents:
+      - weighted_quantile
+      - weighted_median
+      - weighted_mad
+  - title: Higher moments
+    contents:
+      - weighted_skewness
+      - weighted_kurtosis
