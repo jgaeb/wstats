@@ -6,7 +6,7 @@
 \alias{wstats-package}
 \title{wstats: Weighted Descriptive Statistics}
 \description{
-Weighted versions of common descriptive statistics (variance, standard deviation, covariance, correlation, quantiles) for importance weights. Computationally intensive routines are implemented in C++ via cpp11.
+Weighted versions of common descriptive statistics (variance, standard deviation, covariance, correlation, quantiles).
 }
 \author{
 \strong{Maintainer}: Johann D. Gaebler \email{me@jgaeb.com}

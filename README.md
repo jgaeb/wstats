@@ -6,8 +6,7 @@
 <!-- badges: end -->
 
 Base R provides `weighted.mean()` but nothing else. **wstats** fills the gap
-with weighted versions of the other common descriptive statistics, targeting
-the importance-weight use case (Bayesian bootstrap, importance sampling).
+with weighted versions of the other common descriptive statistics.
 
 ## Installation
 
@@ -39,12 +38,12 @@ weighted_cor(x, y, w)
 
 ## Convention
 
-All functions use the **population (importance-weight) formula** — weights are
-treated as probability masses of a discrete distribution, not survey sampling
-weights. Concretely, variance is `Σ(ŵᵢ (xᵢ − μ)²)` where `ŵᵢ = wᵢ / Σwⱼ`,
-with no Bessel correction. This is the right formula for Bayesian bootstrap
-and importance sampling; a bias-corrected version for survey weights may be
-added in a future release.
+All functions currently use a **population formula** — weights are treated as
+probability masses of a discrete distribution, not survey sampling weights.
+Concretely, variance is `Σ(ŵᵢ (xᵢ − μ)²)` where `ŵᵢ = wᵢ / Σwⱼ`, with no
+Bessel correction. This is appropriate for importance sampling and the Bayesian
+bootstrap; support for survey/frequency weights may be added in a future
+release.
 
 Computationally intensive routines are implemented in C++ via
 [cpp11](https://cpp11.r-lib.org/).

@@ -1,12 +1,10 @@
 Package: wstats
 Title: Weighted Descriptive Statistics
-Version: 0.1.0
+Version: 0.1.1
 Authors@R:
     person("Johann D. Gaebler", email = "me@jgaeb.com", role = c("aut", "cre"))
 Description: Weighted versions of common descriptive statistics (variance,
-    standard deviation, covariance, correlation, quantiles) for importance
-    weights. Computationally intensive routines are implemented in C++ via
-    cpp11.
+    standard deviation, covariance, correlation, quantiles).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

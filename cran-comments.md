@@ -2,8 +2,8 @@
 
 0 errors | 0 warnings | 1 note
 
-* This is a new submission.
+* This is a resubmission. The previous submission was rejected because
+  software names in the Description field were not single-quoted. The
+  Description has been simplified to remove those references entirely.
 
-* NOTE: "Possibly misspelled words in DESCRIPTION: cpp (9:5)" — "cpp" is
-  part of "cpp11", the name of the R package used for C++ integration, and
-  is spelled correctly.
+* This is a new submission.
